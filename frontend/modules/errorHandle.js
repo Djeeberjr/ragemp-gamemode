@@ -3,7 +3,7 @@
  */
 
 import bus from "./eventBus";
-
+/*
 window.addEventListener("error",(message, source, lineno, colno, error)=>{
 	bus.emit("chat.push",`
     Message: ${message}
@@ -13,3 +13,4 @@ window.addEventListener("error",(message, source, lineno, colno, error)=>{
     Error: ${JSON.stringify(error)}
     `);    
 });
+*/
