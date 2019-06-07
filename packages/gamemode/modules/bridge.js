@@ -18,18 +18,13 @@ mp.events.add("bridgeClientToServer",(player,payloadJson)=>{
 
 });
 
-function invokeClient(player,nameofFunction,...payload){
-	logger.info(`invokeClient to:${player.name} ${nameofFunction}(${payload})`);
-	logger.debug(`invokeClient ${JSON.stringify({
-		to:"client",
-		function:nameofFunction,
-		payload
-	})}`);
+function invokeClient(player,nameofFunction,...parameter){
+	logger.info(`invokeClient to:${player.name} ${nameofFunction}(${parameter})`);
 
 	let jsonPayload = JSON.stringify({
 		to:"client",
 		function:nameofFunction,
-		payload
+		parameter: parameter
 	});
 
 	logger.debug("jsonPayload: "+ jsonPayload);
