@@ -8,6 +8,9 @@ export default (action)=>{
 	case "spawn_opressor":
 		bridge.invokeServer("spawnVehicleAtPlayer","oppressor2");
 		break;
+	case "kys":
+		bridge.invokeServer("kys");
+		break;
 	default:
 		break;
 	}

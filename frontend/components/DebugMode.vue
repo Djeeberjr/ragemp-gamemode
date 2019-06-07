@@ -48,6 +48,7 @@ export default {
 			quickActions: [
 				{text :"Spawn Opressor ",value:"spawn_opressor"},
 				{text :"Spawn Deluxo", value:"spawn_deluxo"},
+				{text :"Easy way out", value:"kys"}
 			],
 			selectedQuickAction: "",
 			selectedVehicle:"",
