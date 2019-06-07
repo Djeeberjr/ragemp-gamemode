@@ -70,6 +70,8 @@ export default {
 		},
 		show(){
 			this.hidden = false;
+			this.selectedQuickAction = "";
+			this.selectedVehicle = "";
 			keypress.focus(true);
 			mp.invoke("focus", true);
 		},
