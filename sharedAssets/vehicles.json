@@ -1,0 +1,2478 @@
+[
+	{
+		"id": "adder",
+		"displayName": "Adder"
+	},
+	{
+		"id": "airbus",
+		"displayName": "Airport Bus"
+	},
+	{
+		"id": "airtug",
+		"displayName": "Airtug"
+	},
+	{
+		"id": "akula",
+		"displayName": "Akula"
+	},
+	{
+		"id": "akuma",
+		"displayName": "Akuma"
+	},
+	{
+		"id": "alpha",
+		"displayName": "Alpha"
+	},
+	{
+		"id": "alphaz1",
+		"displayName": "Alpha-Z1"
+	},
+	{
+		"id": "ambulance",
+		"displayName": "Ambulance"
+	},
+	{
+		"id": "annihilator",
+		"displayName": "Annihilator"
+	},
+	{
+		"id": "apc",
+		"displayName": "APC"
+	},
+	{
+		"id": "ardent",
+		"displayName": "Ardent"
+	},
+	{
+		"id": "armytanker",
+		"displayName": "Army Trailer"
+	},
+	{
+		"id": "armytrailer2",
+		"displayName": "Army Trailer"
+	},
+	{
+		"id": "asea",
+		"displayName": "Asea"
+	},
+	{
+		"id": "asea2",
+		"displayName": "Asea"
+	},
+	{
+		"id": "asterope",
+		"displayName": "Asterope"
+	},
+	{
+		"id": "autarch",
+		"displayName": "Autarch"
+	},
+	{
+		"id": "avarus",
+		"displayName": "Avarus"
+	},
+	{
+		"id": "avenger",
+		"displayName": "Avenger"
+	},
+	{
+		"id": "bagger",
+		"displayName": "Bagger"
+	},
+	{
+		"id": "baletrailer",
+		"displayName": "Baletrailer"
+	},
+	{
+		"id": "baller",
+		"displayName": "Baller"
+	},
+	{
+		"id": "baller2",
+		"displayName": "Baller"
+	},
+	{
+		"id": "baller3",
+		"displayName": "Baller LE"
+	},
+	{
+		"id": "baller4",
+		"displayName": "Baller LE LWB"
+	},
+	{
+		"id": "baller5",
+		"displayName": "Baller LE (Armored)"
+	},
+	{
+		"id": "baller6",
+		"displayName": "Baller LE LWB (Armored)"
+	},
+	{
+		"id": "banshee",
+		"displayName": "Banshee"
+	},
+	{
+		"id": "banshee2",
+		"displayName": "Banshee 900R"
+	},
+	{
+		"id": "barracks",
+		"displayName": "Barracks"
+	},
+	{
+		"id": "barracks2",
+		"displayName": "Barracks Semi"
+	},
+	{
+		"id": "barracks3",
+		"displayName": "Barracks"
+	},
+	{
+		"id": "barrage",
+		"displayName": "Barrage"
+	},
+	{
+		"id": "bati",
+		"displayName": "Bati 801"
+	},
+	{
+		"id": "bati2",
+		"displayName": "Bati 801RR"
+	},
+	{
+		"id": "benson",
+		"displayName": "Benson"
+	},
+	{
+		"id": "besra",
+		"displayName": "Besra"
+	},
+	{
+		"id": "bestiagts",
+		"displayName": "Bestia GTS"
+	},
+	{
+		"id": "bf400",
+		"displayName": "BF400"
+	},
+	{
+		"id": "bfinjection",
+		"displayName": "Injection"
+	},
+	{
+		"id": "biff",
+		"displayName": "Biff"
+	},
+	{
+		"id": "bifta",
+		"displayName": "Bifta"
+	},
+	{
+		"id": "bison",
+		"displayName": "Bison"
+	},
+	{
+		"id": "bison2",
+		"displayName": "Bison"
+	},
+	{
+		"id": "bison3",
+		"displayName": "Bison"
+	},
+	{
+		"id": "bjxl",
+		"displayName": "BeeJay XL"
+	},
+	{
+		"id": "blade",
+		"displayName": "Blade"
+	},
+	{
+		"id": "blazer",
+		"displayName": "Blazer"
+	},
+	{
+		"id": "blazer2",
+		"displayName": "Blazer Lifeguard"
+	},
+	{
+		"id": "blazer3",
+		"displayName": "Hot Rod Blazer"
+	},
+	{
+		"id": "blazer4",
+		"displayName": "Street Blazer"
+	},
+	{
+		"id": "blazer5",
+		"displayName": "Blazer Aqua"
+	},
+	{
+		"id": "blimp",
+		"displayName": "Atomic Blimp"
+	},
+	{
+		"id": "blimp2",
+		"displayName": "Xero Blimp"
+	},
+	{
+		"id": "blimp3",
+		"displayName": "Blimp"
+	},
+	{
+		"id": "blista",
+		"displayName": "Blista"
+	},
+	{
+		"id": "blista2",
+		"displayName": "Blista Compact"
+	},
+	{
+		"id": "blista3",
+		"displayName": "Go Go Monkey Blista"
+	},
+	{
+		"id": "bmx",
+		"displayName": "BMX"
+	},
+	{
+		"id": "boattrailer",
+		"displayName": "Boat Trailer"
+	},
+	{
+		"id": "bobcatxl",
+		"displayName": "Bobcat XL"
+	},
+	{
+		"id": "bodhi2",
+		"displayName": "Bodhi"
+	},
+	{
+		"id": "bombushka",
+		"displayName": "RM-10 Bombushka"
+	},
+	{
+		"id": "boxville",
+		"displayName": "Boxville"
+	},
+	{
+		"id": "boxville2",
+		"displayName": "Boxville"
+	},
+	{
+		"id": "boxville3",
+		"displayName": "Boxville"
+	},
+	{
+		"id": "boxville4",
+		"displayName": "Boxville"
+	},
+	{
+		"id": "boxville5",
+		"displayName": "Armored Boxville"
+	},
+	{
+		"id": "brawler",
+		"displayName": "Brawler"
+	},
+	{
+		"id": "brickade",
+		"displayName": "Brickade"
+	},
+	{
+		"id": "brioso",
+		"displayName": "Brioso R/A"
+	},
+	{
+		"id": "bruiser",
+		"displayName": "Apocalypse Bruiser"
+	},
+	{
+		"id": "bruiser2",
+		"displayName": "Future Shock Bruiser"
+	},
+	{
+		"id": "bruiser3",
+		"displayName": "Nightmare Bruiser"
+	},
+	{
+		"id": "btype",
+		"displayName": "Roosevelt"
+	},
+	{
+		"id": "btype2",
+		"displayName": "Fränken Stange"
+	},
+	{
+		"id": "btype3",
+		"displayName": "Roosevelt Valor"
+	},
+	{
+		"id": "buccaneer",
+		"displayName": "Buccaneer"
+	},
+	{
+		"id": "buccaneer2",
+		"displayName": "Buccaneer Custom"
+	},
+	{
+		"id": "buffalo",
+		"displayName": "Buffalo"
+	},
+	{
+		"id": "buffalo2",
+		"displayName": "Buffalo S"
+	},
+	{
+		"id": "buffalo3",
+		"displayName": "Sprunk Buffalo"
+	},
+	{
+		"id": "bulldozer",
+		"displayName": "Dozer"
+	},
+	{
+		"id": "bullet",
+		"displayName": "Bullet"
+	},
+	{
+		"id": "burrito",
+		"displayName": "Burrito"
+	},
+	{
+		"id": "burrito2",
+		"displayName": "Burrito"
+	},
+	{
+		"id": "burrito3",
+		"displayName": "Burrito"
+	},
+	{
+		"id": "burrito4",
+		"displayName": "Burrito"
+	},
+	{
+		"id": "burrito5",
+		"displayName": "Burrito"
+	},
+	{
+		"id": "bus",
+		"displayName": "Bus"
+	},
+	{
+		"id": "buzzard",
+		"displayName": "Buzzard Attack Chopper"
+	},
+	{
+		"id": "buzzard2",
+		"displayName": "Buzzard"
+	},
+	{
+		"id": "cablecar",
+		"displayName": "Cable Car"
+	},
+	{
+		"id": "caddy",
+		"displayName": "Caddy"
+	},
+	{
+		"id": "caddy2",
+		"displayName": "Caddy"
+	},
+	{
+		"id": "caddy3",
+		"displayName": "Caddy"
+	},
+	{
+		"id": "camper",
+		"displayName": "Camper"
+	},
+	{
+		"id": "carbonizzare",
+		"displayName": "Carbonizzare"
+	},
+	{
+		"id": "carbonrs",
+		"displayName": "Carbon RS"
+	},
+	{
+		"id": "cargobob",
+		"displayName": "Cargobob"
+	},
+	{
+		"id": "cargobob2",
+		"displayName": "Cargobob"
+	},
+	{
+		"id": "cargobob3",
+		"displayName": "Cargobob"
+	},
+	{
+		"id": "cargobob4",
+		"displayName": "Cargobob"
+	},
+	{
+		"id": "cargoplane",
+		"displayName": "Cargo Plane"
+	},
+	{
+		"id": "casco",
+		"displayName": "Casco"
+	},
+	{
+		"id": "cavalcade",
+		"displayName": "Cavalcade"
+	},
+	{
+		"id": "cavalcade2",
+		"displayName": "Cavalcade"
+	},
+	{
+		"id": "cerberus",
+		"displayName": "Apocalypse Cerberus"
+	},
+	{
+		"id": "cerberus2",
+		"displayName": "Future Shock Cerberus"
+	},
+	{
+		"id": "cerberus3",
+		"displayName": "Nightmare Cerberus"
+	},
+	{
+		"id": "cheetah",
+		"displayName": "Cheetah"
+	},
+	{
+		"id": "cheetah2",
+		"displayName": "Cheetah Classic"
+	},
+	{
+		"id": "chernobog",
+		"displayName": "Chernobog"
+	},
+	{
+		"id": "chimera",
+		"displayName": "Chimera"
+	},
+	{
+		"id": "chino",
+		"displayName": "Chino"
+	},
+	{
+		"id": "chino2",
+		"displayName": "Chino Custom"
+	},
+	{
+		"id": "cliffhanger",
+		"displayName": "Cliffhanger"
+	},
+	{
+		"id": "clique",
+		"displayName": "Clique"
+	},
+	{
+		"id": "coach",
+		"displayName": "Dashound"
+	},
+	{
+		"id": "cog55",
+		"displayName": "Cognoscenti 55"
+	},
+	{
+		"id": "cog552",
+		"displayName": "Cognoscenti 55 (Armored)"
+	},
+	{
+		"id": "cogcabrio",
+		"displayName": "Cognoscenti Cabrio"
+	},
+	{
+		"id": "cognoscenti",
+		"displayName": "Cognoscenti"
+	},
+	{
+		"id": "cognoscenti2",
+		"displayName": "Cognoscenti (Armored)"
+	},
+	{
+		"id": "comet2",
+		"displayName": "Comet"
+	},
+	{
+		"id": "comet3",
+		"displayName": "Comet Retro Custom"
+	},
+	{
+		"id": "comet4",
+		"displayName": "Comet Safari"
+	},
+	{
+		"id": "contender",
+		"displayName": "Contender"
+	},
+	{
+		"id": "coquette",
+		"displayName": "Coquette"
+	},
+	{
+		"id": "coquette2",
+		"displayName": "Coquette Classic"
+	},
+	{
+		"id": "coquette3",
+		"displayName": "Coquette BlackFin"
+	},
+	{
+		"id": "cruiser",
+		"displayName": "Cruiser"
+	},
+	{
+		"id": "crusader",
+		"displayName": "Crusader"
+	},
+	{
+		"id": "cuban800",
+		"displayName": "Cuban 800"
+	},
+	{
+		"id": "cutter",
+		"displayName": "Cutter"
+	},
+	{
+		"id": "cyclone",
+		"displayName": "Cyclone"
+	},
+	{
+		"id": "daemon",
+		"displayName": "Daemon"
+	},
+	{
+		"id": "daemon2",
+		"displayName": "Daemon"
+	},
+	{
+		"id": "deathbike",
+		"displayName": "Apocalypse Deathbike"
+	},
+	{
+		"id": "deathbike2",
+		"displayName": "Future Shock Deathbike"
+	},
+	{
+		"id": "deathbike3",
+		"displayName": "Nightmare Deathbike"
+	},
+	{
+		"id": "defiler",
+		"displayName": "Defiler"
+	},
+	{
+		"id": "deluxo",
+		"displayName": "Deluxo"
+	},
+	{
+		"id": "deveste",
+		"displayName": "Deveste Eight"
+	},
+	{
+		"id": "deviant",
+		"displayName": "Deviant"
+	},
+	{
+		"id": "diablous",
+		"displayName": "Diabolus"
+	},
+	{
+		"id": "diablous2",
+		"displayName": "Diabolus Custom"
+	},
+	{
+		"id": "dilettante",
+		"displayName": "Dilettante"
+	},
+	{
+		"id": "dilettante2",
+		"displayName": "Dilettante"
+	},
+	{
+		"id": "dinghy",
+		"displayName": "Dinghy"
+	},
+	{
+		"id": "dinghy2",
+		"displayName": "Dinghy"
+	},
+	{
+		"id": "dinghy3",
+		"displayName": "Dinghy"
+	},
+	{
+		"id": "dinghy4",
+		"displayName": "Dinghy"
+	},
+	{
+		"id": "dloader",
+		"displayName": "Duneloader"
+	},
+	{
+		"id": "docktrailer",
+		"displayName": "docktrailer"
+	},
+	{
+		"id": "docktug",
+		"displayName": "Docktug"
+	},
+	{
+		"id": "dodo",
+		"displayName": "Dodo"
+	},
+	{
+		"id": "dominator",
+		"displayName": "Dominator"
+	},
+	{
+		"id": "dominator2",
+		"displayName": "Pisswasser Dominator"
+	},
+	{
+		"id": "dominator3",
+		"displayName": "Dominator GTX"
+	},
+	{
+		"id": "dominator4",
+		"displayName": "Apocalypse Dominator"
+	},
+	{
+		"id": "dominator5",
+		"displayName": "Future Shock Dominator"
+	},
+	{
+		"id": "dominator6",
+		"displayName": "Nightmare Dominator"
+	},
+	{
+		"id": "double",
+		"displayName": "Double-T"
+	},
+	{
+		"id": "dubsta",
+		"displayName": "Dubsta"
+	},
+	{
+		"id": "dubsta2",
+		"displayName": "Dubsta"
+	},
+	{
+		"id": "dubsta3",
+		"displayName": "Dubsta 6x6"
+	},
+	{
+		"id": "dukes",
+		"displayName": "Dukes"
+	},
+	{
+		"id": "dukes2",
+		"displayName": "Duke O'Death"
+	},
+	{
+		"id": "dump",
+		"displayName": "Dump"
+	},
+	{
+		"id": "dune",
+		"displayName": "Dune Buggy"
+	},
+	{
+		"id": "dune2",
+		"displayName": "Space Docker"
+	},
+	{
+		"id": "dune3",
+		"displayName": "Dune FAV"
+	},
+	{
+		"id": "dune4",
+		"displayName": "Ramp Buggy"
+	},
+	{
+		"id": "dune5",
+		"displayName": "Ramp Buggy"
+	},
+	{
+		"id": "duster",
+		"displayName": "Duster"
+	},
+	{
+		"id": "elegy",
+		"displayName": "Elegy Retro Custom"
+	},
+	{
+		"id": "elegy2",
+		"displayName": "Elegy RH8"
+	},
+	{
+		"id": "emperor",
+		"displayName": "Emperor"
+	},
+	{
+		"id": "emperor2",
+		"displayName": "Emperor"
+	},
+	{
+		"id": "emperor3",
+		"displayName": "Emperor"
+	},
+	{
+		"id": "enduro",
+		"displayName": "Enduro"
+	},
+	{
+		"id": "entityxf",
+		"displayName": "Entity XF"
+	},
+	{
+		"id": "esskey",
+		"displayName": "Esskey"
+	},
+	{
+		"id": "exemplar",
+		"displayName": "Exemplar"
+	},
+	{
+		"id": "f620",
+		"displayName": "F620"
+	},
+	{
+		"id": "faction",
+		"displayName": "Faction"
+	},
+	{
+		"id": "faction2",
+		"displayName": "Faction Custom"
+	},
+	{
+		"id": "faction3",
+		"displayName": "Faction Custom Donk"
+	},
+	{
+		"id": "faggio",
+		"displayName": "Faggio Sport"
+	},
+	{
+		"id": "faggio2",
+		"displayName": "Faggio"
+	},
+	{
+		"id": "faggio3",
+		"displayName": "Faggio Mod"
+	},
+	{
+		"id": "fbi",
+		"displayName": "FIB"
+	},
+	{
+		"id": "fbi2",
+		"displayName": "FIB"
+	},
+	{
+		"id": "fcr",
+		"displayName": "FCR 1000"
+	},
+	{
+		"id": "fcr2",
+		"displayName": "FCR 1000 Custom"
+	},
+	{
+		"id": "felon",
+		"displayName": "Felon"
+	},
+	{
+		"id": "felon2",
+		"displayName": "Felon GT"
+	},
+	{
+		"id": "feltzer2",
+		"displayName": "Feltzer"
+	},
+	{
+		"id": "feltzer3",
+		"displayName": "Stirling GT"
+	},
+	{
+		"id": "firetruk",
+		"displayName": "Fire Truck"
+	},
+	{
+		"id": "fixter",
+		"displayName": "Fixter"
+	},
+	{
+		"id": "flatbed",
+		"displayName": "Flatbed"
+	},
+	{
+		"id": "fmj",
+		"displayName": "FMJ"
+	},
+	{
+		"id": "forklift",
+		"displayName": "Forklift"
+	},
+	{
+		"id": "fq2",
+		"displayName": "FQ 2"
+	},
+	{
+		"id": "freecrawler",
+		"displayName": "Freecrawler"
+	},
+	{
+		"id": "freight",
+		"displayName": "Freight Train"
+	},
+	{
+		"id": "freightcar",
+		"displayName": "Freight Train"
+	},
+	{
+		"id": "freightcont1",
+		"displayName": "Freight Train"
+	},
+	{
+		"id": "freightcont2",
+		"displayName": "Freight Train"
+	},
+	{
+		"id": "freightgrain",
+		"displayName": "Freight Train"
+	},
+	{
+		"id": "frogger",
+		"displayName": "Frogger"
+	},
+	{
+		"id": "frogger2",
+		"displayName": "Frogger"
+	},
+	{
+		"id": "fugitive",
+		"displayName": "Fugitive"
+	},
+	{
+		"id": "furoregt",
+		"displayName": "Furore GT"
+	},
+	{
+		"id": "fusilade",
+		"displayName": "Fusilade"
+	},
+	{
+		"id": "futo",
+		"displayName": "Futo"
+	},
+	{
+		"id": "gargoyle",
+		"displayName": "Gargoyle"
+	},
+	{
+		"id": "gauntlet",
+		"displayName": "Gauntlet"
+	},
+	{
+		"id": "gauntlet2",
+		"displayName": "Redwood Gauntlet"
+	},
+	{
+		"id": "gburrito",
+		"displayName": "Gang Burrito"
+	},
+	{
+		"id": "gburrito2",
+		"displayName": "Gang Burrito"
+	},
+	{
+		"id": "glendale",
+		"displayName": "Glendale"
+	},
+	{
+		"id": "gp1",
+		"displayName": "GP1"
+	},
+	{
+		"id": "graintrailer",
+		"displayName": "graintrailer"
+	},
+	{
+		"id": "granger",
+		"displayName": "Granger"
+	},
+	{
+		"id": "gresley",
+		"displayName": "Gresley"
+	},
+	{
+		"id": "gt500",
+		"displayName": "GT500"
+	},
+	{
+		"id": "guardian",
+		"displayName": "Guardian"
+	},
+	{
+		"id": "habanero",
+		"displayName": "Habanero"
+	},
+	{
+		"id": "hakuchou",
+		"displayName": "Hakuchou"
+	},
+	{
+		"id": "hakuchou2",
+		"displayName": "Hakuchou Drag"
+	},
+	{
+		"id": "halftrack",
+		"displayName": "Half-track"
+	},
+	{
+		"id": "handler",
+		"displayName": "Dock Handler"
+	},
+	{
+		"id": "hauler",
+		"displayName": "Hauler"
+	},
+	{
+		"id": "hauler2",
+		"displayName": "Hauler Custom"
+	},
+	{
+		"id": "havok",
+		"displayName": "Havok"
+	},
+	{
+		"id": "hermes",
+		"displayName": "Hermes"
+	},
+	{
+		"id": "hexer",
+		"displayName": "Hexer"
+	},
+	{
+		"id": "hotknife",
+		"displayName": "Hotknife"
+	},
+	{
+		"id": "hotring",
+		"displayName": "Hotring Sabre"
+	},
+	{
+		"id": "howard",
+		"displayName": "Howard NX-25"
+	},
+	{
+		"id": "hunter",
+		"displayName": "FH-1 Hunter"
+	},
+	{
+		"id": "huntley",
+		"displayName": "Huntley S"
+	},
+	{
+		"id": "hydra",
+		"displayName": "Hydra"
+	},
+	{
+		"id": "impaler",
+		"displayName": "Impaler"
+	},
+	{
+		"id": "impaler2",
+		"displayName": "Apocalypse Impaler" 
+	},
+	{
+		"id": "impaler3",
+		"displayName": "Future Shock Impaler" 
+	},
+	{
+		"id": "impaler4",
+		"displayName": "Nightmare Impaler"
+	},
+	{
+		"id": "imperator",
+		"displayName": "Apocalypse Imperator"
+	},
+	{
+		"id": "imperator2",
+		"displayName": "Future Shock Imperator"
+	},
+	{
+		"id": "imperator3",
+		"displayName": "Nightmare Imperator"
+	},
+	{
+		"id": "infernus",
+		"displayName": "Infernus"
+	},
+	{
+		"id": "infernus2",
+		"displayName": "Infernus Classic"
+	},
+	{
+		"id": "ingot",
+		"displayName": "Ingot"
+	},
+	{
+		"id": "innovation",
+		"displayName": "Innovation"
+	},
+	{
+		"id": "insurgent",
+		"displayName": "Insurgent Pick-Up"
+	},
+	{
+		"id": "insurgent2",
+		"displayName": "Insurgent"
+	},
+	{
+		"id": "insurgent3",
+		"displayName": "Insurgent Pick-Up Custom"
+	},
+	{
+		"id": "intruder",
+		"displayName": "Intruder"
+	},
+	{
+		"id": "issi2",
+		"displayName": "Issi"
+	},
+	{
+		"id": "issi3",
+		"displayName": "Issi Classic"
+	},
+	{
+		"id": "issi4",
+		"displayName": "Apocalypse Issi"
+	},
+	{
+		"id": "issi5",
+		"displayName": "Future Shock Issi"
+	},
+	{
+		"id": "issi6",
+		"displayName": "Nightmare Issi"
+	},
+	{
+		"id": "italigtb",
+		"displayName": "Itali GTB"
+	},
+	{
+		"id": "italigtb2",
+		"displayName": "Itali GTB Custom"
+	},
+	{
+		"id": "italigto",
+		"displayName": "Itali GTO"
+	},
+	{
+		"id": "jackal",
+		"displayName": "Jackal"
+	},
+	{
+		"id": "jb700",
+		"displayName": "JB 700"
+	},
+	{
+		"id": "jester",
+		"displayName": "Jester"
+	},
+	{
+		"id": "jester2",
+		"displayName": "Jester (Racecar)"
+	},
+	{
+		"id": "jet",
+		"displayName": "Jet"
+	},
+	{
+		"id": "jetmax",
+		"displayName": "Jetmax"
+	},
+	{
+		"id": "journey",
+		"displayName": "Journey"
+	},
+	{
+		"id": "kalahari",
+		"displayName": "Kalahari"
+	},
+	{
+		"id": "khamelion",
+		"displayName": "Khamelion"
+	},
+	{
+		"id": "khanjali",
+		"displayName": "TM-02 Khanjali"
+	},
+	{
+		"id": "kuruma",
+		"displayName": "Kuruma"
+	},
+	{
+		"id": "kuruma2",
+		"displayName": "Kuruma (Armored)"
+	},
+	{
+		"id": "landstalker",
+		"displayName": "Landstalker"
+	},
+	{
+		"id": "lazer",
+		"displayName": "P-996 LAZER"
+	},
+	{
+		"id": "le7b",
+		"displayName": "RE-7B"
+	},
+	{
+		"id": "lectro",
+		"displayName": "Lectro"
+	},
+	{
+		"id": "lguard",
+		"displayName": "Lifeguard"
+	},
+	{
+		"id": "limo2",
+		"displayName": "Turreted Limo"
+	},
+	{
+		"id": "lurcher",
+		"displayName": "Lurcher"
+	},
+	{
+		"id": "luxor",
+		"displayName": "Luxor"
+	},
+	{
+		"id": "luxor2",
+		"displayName": "Luxor Deluxe"
+	},
+	{
+		"id": "lynx",
+		"displayName": "Lynx"
+	},
+	{
+		"id": "mamba",
+		"displayName": "Mamba"
+	},
+	{
+		"id": "mammatus",
+		"displayName": "Mammatus"
+	},
+	{
+		"id": "manana",
+		"displayName": "Manana"
+	},
+	{
+		"id": "manchez",
+		"displayName": "Manchez"
+	},
+	{
+		"id": "marquis",
+		"displayName": "Marquis"
+	},
+	{
+		"id": "marshall",
+		"displayName": "Marshall"
+	},
+	{
+		"id": "massacro",
+		"displayName": "Massacro"
+	},
+	{
+		"id": "massacro2",
+		"displayName": "Massacro (Racecar)"
+	},
+	{
+		"id": "maverick",
+		"displayName": "Maverick"
+	},
+	{
+		"id": "menacer",
+		"displayName": "Menacer"
+	},
+	{
+		"id": "mesa",
+		"displayName": "Mesa"
+	},
+	{
+		"id": "mesa2",
+		"displayName": "Mesa"
+	},
+	{
+		"id": "mesa3",
+		"displayName": "Mesa"
+	},
+	{
+		"id": "microlight",
+		"displayName": "Ultralight"
+	},
+	{
+		"id": "miljet",
+		"displayName": "Miljet"
+	},
+	{
+		"id": "minivan",
+		"displayName": "Minivan"
+	},
+	{
+		"id": "minivan2",
+		"displayName": "Minivan Custom"
+	},
+	{
+		"id": "mixer",
+		"displayName": "Mixer"
+	},
+	{
+		"id": "mixer2",
+		"displayName": "Mixer"
+	},
+	{
+		"id": "mogul",
+		"displayName": "Mogul"
+	},
+	{
+		"id": "molotok",
+		"displayName": "V-65 Molotok"
+	},
+	{
+		"id": "monroe",
+		"displayName": "Monroe"
+	},
+	{
+		"id": "monster",
+		"displayName": "Liberator"
+	},
+	{
+		"id": "monster3",
+		"displayName": "Apocalypse Sasquatch"
+	},
+	{
+		"id": "monster4",
+		"displayName": "Future Shock Sasquatch"
+	},
+	{
+		"id": "monster5",
+		"displayName": "Nightmare Sasquatch"
+	},
+	{
+		"id": "moonbeam",
+		"displayName": "Moonbeam"
+	},
+	{
+		"id": "moonbeam2",
+		"displayName": "Moonbeam Custom"
+	},
+	{
+		"id": "mower",
+		"displayName": "Lawn Mower"
+	},
+	{
+		"id": "mule",
+		"displayName": "Mule"
+	},
+	{
+		"id": "mule2",
+		"displayName": "Mule"
+	},
+	{
+		"id": "mule3",
+		"displayName": "Mule"
+	},
+	{
+		"id": "mule4",
+		"displayName": "Mule Custom"
+	},
+	{
+		"id": "nemesis",
+		"displayName": "Nemesis"
+	},
+	{
+		"id": "neon",
+		"displayName": "Neon"
+	},
+	{
+		"id": "nero",
+		"displayName": "Nero"
+	},
+	{
+		"id": "nero2",
+		"displayName": "Nero Custom"
+	},
+	{
+		"id": "nightblade",
+		"displayName": "Nightblade"
+	},
+	{
+		"id": "nightshade",
+		"displayName": "Nightshade"
+	},
+	{
+		"id": "nightshark",
+		"displayName": "Nightshark"
+	},
+	{
+		"id": "nimbus",
+		"displayName": "Nimbus"
+	},
+	{
+		"id": "ninef",
+		"displayName": "9F"
+	},
+	{
+		"id": "ninef2",
+		"displayName": "9F Cabrio"
+	},
+	{
+		"id": "nokota",
+		"displayName": "P-45 Nokota"
+	},
+	{
+		"id": "omnis",
+		"displayName": "Omnis"
+	},
+	{
+		"id": "oppressor",
+		"displayName": "Oppressor"
+	},
+	{
+		"id": "oppressor2",
+		"displayName": "Oppressor Mk II"
+	},
+	{
+		"id": "oracle",
+		"displayName": "Oracle XS"
+	},
+	{
+		"id": "oracle2",
+		"displayName": "Oracle"
+	},
+	{
+		"id": "osiris",
+		"displayName": "Osiris"
+	},
+	{
+		"id": "packer",
+		"displayName": "Packer"
+	},
+	{
+		"id": "panto",
+		"displayName": "Panto"
+	},
+	{
+		"id": "paradise",
+		"displayName": "Paradise"
+	},
+	{
+		"id": "pariah",
+		"displayName": "Pariah"
+	},
+	{
+		"id": "patriot",
+		"displayName": "Patriot"
+	},
+	{
+		"id": "patriot2",
+		"displayName": "Patriot Stretch"
+	},
+	{
+		"id": "pbus",
+		"displayName": "Prison Bus"
+	},
+	{
+		"id": "pbus2",
+		"displayName": "Festival Bus"
+	},
+	{
+		"id": "pcj",
+		"displayName": "PCJ 600"
+	},
+	{
+		"id": "penetrator",
+		"displayName": "Penetrator"
+	},
+	{
+		"id": "penumbra",
+		"displayName": "Penumbra"
+	},
+	{
+		"id": "peyote",
+		"displayName": "Peyote"
+	},
+	{
+		"id": "pfister811",
+		"displayName": "811"
+	},
+	{
+		"id": "phantom",
+		"displayName": "Phantom"
+	},
+	{
+		"id": "phantom2",
+		"displayName": "Phantom Wedge"
+	},
+	{
+		"id": "phantom3",
+		"displayName": "Phantom Custom"
+	},
+	{
+		"id": "phoenix",
+		"displayName": "Phoenix"
+	},
+	{
+		"id": "picador",
+		"displayName": "Picador"
+	},
+	{
+		"id": "pigalle",
+		"displayName": "Pigalle"
+	},
+	{
+		"id": "police",
+		"displayName": "Police Cruiser"
+	},
+	{
+		"id": "police2",
+		"displayName": "Police Cruiser"
+	},
+	{
+		"id": "police3",
+		"displayName": "Police Cruiser"
+	},
+	{
+		"id": "police4",
+		"displayName": "Unmarked Cruiser"
+	},
+	{
+		"id": "policeb",
+		"displayName": "Police Bike"
+	},
+	{
+		"id": "policeold1",
+		"displayName": "Police Rancher"
+	},
+	{
+		"id": "policeold2",
+		"displayName": "Police Roadcruiser"
+	},
+	{
+		"id": "policet",
+		"displayName": "Police Transporter"
+	},
+	{
+		"id": "polmav",
+		"displayName": "Police Maverick"
+	},
+	{
+		"id": "pony",
+		"displayName": "Pony"
+	},
+	{
+		"id": "pony2",
+		"displayName": "Pony"
+	},
+	{
+		"id": "pounder",
+		"displayName": "Pounder"
+	},
+	{
+		"id": "pounder2",
+		"displayName": "Pounder Custom"
+	},
+	{
+		"id": "prairie",
+		"displayName": "Prairie"
+	},
+	{
+		"id": "pranger",
+		"displayName": "Park Ranger"
+	},
+	{
+		"id": "predator",
+		"displayName": "Police Predator"
+	},
+	{
+		"id": "premier",
+		"displayName": "Premier"
+	},
+	{
+		"id": "primo",
+		"displayName": "Primo"
+	},
+	{
+		"id": "primo2",
+		"displayName": "Primo Custom"
+	},
+	{
+		"id": "proptrailer",
+		"displayName": "proptrailer"
+	},
+	{
+		"id": "prototipo",
+		"displayName": "X80 Proto"
+	},
+	{
+		"id": "pyro",
+		"displayName": "Pyro"
+	},
+	{
+		"id": "radi",
+		"displayName": "Radius"
+	},
+	{
+		"id": "raiden",
+		"displayName": "Raiden"
+	},
+	{
+		"id": "raketrailer",
+		"displayName": "Trailer"
+	},
+	{
+		"id": "rallytruck",
+		"displayName": "Dune"
+	},
+	{
+		"id": "rancherxl",
+		"displayName": "Rancher XL"
+	},
+	{
+		"id": "rancherxl2",
+		"displayName": "Rancher XL"
+	},
+	{
+		"id": "rapidgt",
+		"displayName": "Rapid GT"
+	},
+	{
+		"id": "rapidgt2",
+		"displayName": "Rapid GT"
+	},
+	{
+		"id": "rapidgt3",
+		"displayName": "Rapid GT Classic"
+	},
+	{
+		"id": "raptor",
+		"displayName": "Raptor"
+	},
+	{
+		"id": "ratbike",
+		"displayName": "Rat Bike"
+	},
+	{
+		"id": "ratloader",
+		"displayName": "Rat-Loader"
+	},
+	{
+		"id": "ratloader2",
+		"displayName": "Rat-Truck"
+	},
+	{
+		"id": "rcbandito",
+		"displayName": "RC Bandito"
+	},
+	{
+		"id": "reaper",
+		"displayName": "Reaper"
+	},
+	{
+		"id": "rebel",
+		"displayName": "Rusty Rebel"
+	},
+	{
+		"id": "rebel2",
+		"displayName": "Rebel"
+	},
+	{
+		"id": "regina",
+		"displayName": "Regina"
+	},
+	{
+		"id": "rentalbus",
+		"displayName": "Rental Shuttle Bus"
+	},
+	{
+		"id": "retinue",
+		"displayName": "Retinue"
+	},
+	{
+		"id": "revolter",
+		"displayName": "Revolter"
+	},
+	{
+		"id": "rhapsody",
+		"displayName": "Rhapsody"
+	},
+	{
+		"id": "rhino",
+		"displayName": "Rhino Tank"
+	},
+	{
+		"id": "riata",
+		"displayName": "Riata"
+	},
+	{
+		"id": "riot",
+		"displayName": "Police Riot"
+	},
+	{
+		"id": "riot2",
+		"displayName": "RCV"
+	},
+	{
+		"id": "ripley",
+		"displayName": "Ripley"
+	},
+	{
+		"id": "rocoto",
+		"displayName": "Rocoto"
+	},
+	{
+		"id": "rogue",
+		"displayName": "Rogue"
+	},
+	{
+		"id": "romero",
+		"displayName": "Romero Hearse"
+	},
+	{
+		"id": "rubble",
+		"displayName": "Rubble"
+	},
+	{
+		"id": "ruffian",
+		"displayName": "Ruffian"
+	},
+	{
+		"id": "ruiner",
+		"displayName": "Ruiner"
+	},
+	{
+		"id": "ruiner2",
+		"displayName": "Ruiner 2000"
+	},
+	{
+		"id": "ruiner3",
+		"displayName": "Ruiner"
+	},
+	{
+		"id": "rumpo",
+		"displayName": "Rumpo"
+	},
+	{
+		"id": "rumpo2",
+		"displayName": "Rumpo"
+	},
+	{
+		"id": "rumpo3",
+		"displayName": "Rumpo Custom"
+	},
+	{
+		"id": "ruston",
+		"displayName": "Ruston"
+	},
+	{
+		"id": "sabregt",
+		"displayName": "Sabre Turbo"
+	},
+	{
+		"id": "sabregt2",
+		"displayName": "Sabre Turbo Custom"
+	},
+	{
+		"id": "sadler",
+		"displayName": "Sadler"
+	},
+	{
+		"id": "sadler2",
+		"displayName": "Sadler"
+	},
+	{
+		"id": "sanchez2",
+		"displayName": "Sanchez"
+	},
+	{
+		"id": "sanctus",
+		"displayName": "Sanctus"
+	},
+	{
+		"id": "sandking",
+		"displayName": "Sandking XL"
+	},
+	{
+		"id": "sandking2",
+		"displayName": "Sandking SWB"
+	},
+	{
+		"id": "savage",
+		"displayName": "Savage"
+	},
+	{
+		"id": "savestra",
+		"displayName": "Savestra"
+	},
+	{
+		"id": "sc1",
+		"displayName": "SC1"
+	},
+	{
+		"id": "scarab",
+		"displayName": "Apocalypse Scarab"
+	},
+	{
+		"id": "scarab2",
+		"displayName": "Future Shock Scarab"
+	},
+	{
+		"id": "scarab3",
+		"displayName": "Nightmare Scarab"
+	},
+	{
+		"id": "schafter2",
+		"displayName": "Schafter"
+	},
+	{
+		"id": "schafter3",
+		"displayName": "Schafter V12"
+	},
+	{
+		"id": "schafter4",
+		"displayName": "Schafter LWB"
+	},
+	{
+		"id": "schafter5",
+		"displayName": "Schafter V12 (Armored)"
+	},
+	{
+		"id": "schafter6",
+		"displayName": "Schafter LWB (Armored)"
+	},
+	{
+		"id": "schlagen",
+		"displayName": "Schlagen GT"
+	},
+	{
+		"id": "schwarzer",
+		"displayName": "Schwartzer"
+	},
+	{
+		"id": "scorcher",
+		"displayName": "Scorcher"
+	},
+	{
+		"id": "scramjet",
+		"displayName": "Scramjet"
+	},
+	{
+		"id": "scrap",
+		"displayName": "Scrap Truck"
+	},
+	{
+		"id": "seabreeze",
+		"displayName": "Seabreeze"
+	},
+	{
+		"id": "seashark",
+		"displayName": "Seashark"
+	},
+	{
+		"id": "seashark2",
+		"displayName": "Seashark"
+	},
+	{
+		"id": "seashark3",
+		"displayName": "Seashark"
+	},
+	{
+		"id": "seasparrow",
+		"displayName": "Sea Sparrow"
+	},
+	{
+		"id": "seminole",
+		"displayName": "Seminole"
+	},
+	{
+		"id": "sentinel",
+		"displayName": "Sentinel XS"
+	},
+	{
+		"id": "sentinel2",
+		"displayName": "Sentinel"
+	},
+	{
+		"id": "sentinel3",
+		"displayName": "Sentinel Classic"
+	},
+	{
+		"id": "serrano",
+		"displayName": "Serrano"
+	},
+	{
+		"id": "seven70",
+		"displayName": "Seven-70"
+	},
+	{
+		"id": "shamal",
+		"displayName": "Shamal"
+	},
+	{
+		"id": "sheava",
+		"displayName": "ETR1"
+	},
+	{
+		"id": "sheriff",
+		"displayName": "Sheriff Cruiser"
+	},
+	{
+		"id": "sheriff2",
+		"displayName": "Sheriff SUV"
+	},
+	{
+		"id": "shotaro",
+		"displayName": "Shotaro"
+	},
+	{
+		"id": "skylift",
+		"displayName": "Skylift"
+	},
+	{
+		"id": "slamvan",
+		"displayName": "Slamvan"
+	},
+	{
+		"id": "slamvan2",
+		"displayName": "Lost Slamvan"
+	},
+	{
+		"id": "slamvan3",
+		"displayName": "Slamvan Custom"
+	},
+	{
+		"id": "slamvan4",
+		"displayName": "Apocalypse Slamvan"
+	},
+	{
+		"id": "slamvan5",
+		"displayName": "Future Shock Slamvan"
+	},
+	{
+		"id": "slamvan6",
+		"displayName": "Nightmare Slamvan"
+	},
+	{
+		"id": "sovereign",
+		"displayName": "Sovereign"
+	},
+	{
+		"id": "specter",
+		"displayName": "Specter"
+	},
+	{
+		"id": "specter2",
+		"displayName": "Specter Custom"
+	},
+	{
+		"id": "speeder",
+		"displayName": "Speeder"
+	},
+	{
+		"id": "speeder2",
+		"displayName": "Speeder"
+	},
+	{
+		"id": "speedo",
+		"displayName": "Speedo"
+	},
+	{
+		"id": "speedo2",
+		"displayName": "Clown Van"
+	},
+	{
+		"id": "speedo4",
+		"displayName": "Speedo Custom"
+	},
+	{
+		"id": "squalo",
+		"displayName": "Squalo"
+	},
+	{
+		"id": "stafford",
+		"displayName": "Stafford"
+	},
+	{
+		"id": "stalion",
+		"displayName": "Stallion"
+	},
+	{
+		"id": "stalion2",
+		"displayName": "Burger Shot Stallion"
+	},
+	{
+		"id": "stanier",
+		"displayName": "Stanier"
+	},
+	{
+		"id": "starling",
+		"displayName": "LF-22 Starling"
+	},
+	{
+		"id": "stinger",
+		"displayName": "Stinger"
+	},
+	{
+		"id": "stingergt",
+		"displayName": "Stinger GT"
+	},
+	{
+		"id": "stockade",
+		"displayName": "Stockade"
+	},
+	{
+		"id": "stockade3",
+		"displayName": "Stockade"
+	},
+	{
+		"id": "stratum",
+		"displayName": "Stratum"
+	},
+	{
+		"id": "streiter",
+		"displayName": "Streiter"
+	},
+	{
+		"id": "stretch",
+		"displayName": "Stretch"
+	},
+	{
+		"id": "strikeforce",
+		"displayName": "B-11 Strikeforce"
+	},
+	{
+		"id": "stromberg",
+		"displayName": "Stromberg"
+	},
+	{
+		"id": "stunt",
+		"displayName": "Mallard"
+	},
+	{
+		"id": "submersible",
+		"displayName": "Submersible"
+	},
+	{
+		"id": "submersible2",
+		"displayName": "Kraken"
+	},
+	{
+		"id": "sultan",
+		"displayName": "Sultan"
+	},
+	{
+		"id": "sultanrs",
+		"displayName": "Sultan RS"
+	},
+	{
+		"id": "suntrap",
+		"displayName": "Suntrap"
+	},
+	{
+		"id": "superd",
+		"displayName": "Super Diamond"
+	},
+	{
+		"id": "supervolito",
+		"displayName": "SuperVolito"
+	},
+	{
+		"id": "supervolito2",
+		"displayName": "SuperVolito Carbon"
+	},
+	{
+		"id": "surano",
+		"displayName": "Surano"
+	},
+	{
+		"id": "surfer",
+		"displayName": "Surfer"
+	},
+	{
+		"id": "surfer2",
+		"displayName": "Surfer"
+	},
+	{
+		"id": "surge",
+		"displayName": "Surge"
+	},
+	{
+		"id": "swift",
+		"displayName": "Swift"
+	},
+	{
+		"id": "swift2",
+		"displayName": "Swift Deluxe"
+	},
+	{
+		"id": "swinger",
+		"displayName": "Swinger"
+	},
+	{
+		"id": "t20",
+		"displayName": "T20"
+	},
+	{
+		"id": "taco",
+		"displayName": "Taco Van"
+	},
+	{
+		"id": "tailgater",
+		"displayName": "Tailgater"
+	},
+	{
+		"id": "tampa",
+		"displayName": "Tampa"
+	},
+	{
+		"id": "tampa2",
+		"displayName": "Drift Tampa"
+	},
+	{
+		"id": "tampa3",
+		"displayName": "Weaponized Tampa"
+	},
+	{
+		"id": "tanker",
+		"displayName": "Trailer"
+	},
+	{
+		"id": "tanker2",
+		"displayName": "tanker2"
+	},
+	{
+		"id": "tankercar",
+		"displayName": "Freight Train"
+	},
+	{
+		"id": "taxi",
+		"displayName": "Taxi"
+	},
+	{
+		"id": "technical",
+		"displayName": "Technical"
+	},
+	{
+		"id": "technical2",
+		"displayName": "Technical Aqua"
+	},
+	{
+		"id": "technical3",
+		"displayName": "Technical Custom"
+	},
+	{
+		"id": "tempesta",
+		"displayName": "Tempesta"
+	},
+	{
+		"id": "terbyte",
+		"displayName": "Terrorbyte"
+	},
+	{
+		"id": "thrust",
+		"displayName": "Thrust"
+	},
+	{
+		"id": "thruster",
+		"displayName": "Thruster"
+	},
+	{
+		"id": "tiptruck",
+		"displayName": "Tipper"
+	},
+	{
+		"id": "tiptruck2",
+		"displayName": "Tipper"
+	},
+	{
+		"id": "titan",
+		"displayName": "Titan"
+	},
+	{
+		"id": "torero",
+		"displayName": "Torero"
+	},
+	{
+		"id": "tornado",
+		"displayName": "Tornado"
+	},
+	{
+		"id": "tornado2",
+		"displayName": "Tornado"
+	},
+	{
+		"id": "tornado3",
+		"displayName": "Tornado"
+	},
+	{
+		"id": "tornado4",
+		"displayName": "Tornado"
+	},
+	{
+		"id": "tornado5",
+		"displayName": "Tornado Custom"
+	},
+	{
+		"id": "tornado6",
+		"displayName": "Tornado Rat Rod"
+	},
+	{
+		"id": "toro",
+		"displayName": "Toro"
+	},
+	{
+		"id": "toro2",
+		"displayName": "Toro"
+	},
+	{
+		"id": "toros",
+		"displayName": "Toros"
+	},
+	{
+		"id": "tourbus",
+		"displayName": "Tourbus"
+	},
+	{
+		"id": "towtruck",
+		"displayName": "Towtruck"
+	},
+	{
+		"id": "towtruck2",
+		"displayName": "Towtruck"
+	},
+	{
+		"id": "tr2",
+		"displayName": "Trailer"
+	},
+	{
+		"id": "tr3",
+		"displayName": "Trailer"
+	},
+	{
+		"id": "tr4",
+		"displayName": "Trailer"
+	},
+	{
+		"id": "tractor",
+		"displayName": "Tractor"
+	},
+	{
+		"id": "tractor2",
+		"displayName": "Fieldmaster"
+	},
+	{
+		"id": "tractor3",
+		"displayName": "Fieldmaster"
+	},
+	{
+		"id": "trailerlogs",
+		"displayName": "Trailer"
+	},
+	{
+		"id": "trailers",
+		"displayName": "Trailer"
+	},
+	{
+		"id": "trailers2",
+		"displayName": "Trailer"
+	},
+	{
+		"id": "trailers3",
+		"displayName": "Trailer"
+	},
+	{
+		"id": "trailersmall",
+		"displayName": "Trailer"
+	},
+	{
+		"id": "trailersmall2",
+		"displayName": "Anti-Aircraft Trailer"
+	},
+	{
+		"id": "trash",
+		"displayName": "Trashmaster"
+	},
+	{
+		"id": "trash2",
+		"displayName": "Trashmaster"
+	},
+	{
+		"id": "trflat",
+		"displayName": "Trailer"
+	},
+	{
+		"id": "tribike",
+		"displayName": "Whippet Race Bike"
+	},
+	{
+		"id": "tribike2",
+		"displayName": "Endurex Race Bike"
+	},
+	{
+		"id": "tribike3",
+		"displayName": "Tri-Cycles Race Bike"
+	},
+	{
+		"id": "trophytruck",
+		"displayName": "Trophy Truck"
+	},
+	{
+		"id": "trophytruck2",
+		"displayName": "Desert Raid"
+	},
+	{
+		"id": "tropic",
+		"displayName": "Tropic"
+	},
+	{
+		"id": "tropic2",
+		"displayName": "Tropic"
+	},
+	{
+		"id": "tropos",
+		"displayName": "Tropos Rallye"
+	},
+	{
+		"id": "tug",
+		"displayName": "Tug"
+	},
+	{
+		"id": "tula",
+		"displayName": "Tula"
+	},
+	{
+		"id": "tulip",
+		"displayName": "Tulip"
+	},
+	{
+		"id": "turismo2",
+		"displayName": "Turismo Classic"
+	},
+	{
+		"id": "turismor",
+		"displayName": "Turismo R"
+	},
+	{
+		"id": "tvtrailer",
+		"displayName": "Trailer"
+	},
+	{
+		"id": "tyrus",
+		"displayName": "Tyrus"
+	},
+	{
+		"id": "utillitruck",
+		"displayName": "Utility Truck"
+	},
+	{
+		"id": "utillitruck2",
+		"displayName": "Utility Truck"
+	},
+	{
+		"id": "utillitruck3",
+		"displayName": "Utility Truck"
+	},
+	{
+		"id": "vacca",
+		"displayName": "Vacca"
+	},
+	{
+		"id": "vader",
+		"displayName": "Vader"
+	},
+	{
+		"id": "vagner",
+		"displayName": "Vagner"
+	},
+	{
+		"id": "valkyrie",
+		"displayName": "Valkyrie"
+	},
+	{
+		"id": "valkyrie2",
+		"displayName": "Valkyrie MOD.0"
+	},
+	{
+		"id": "vamos",
+		"displayName": "Vamos"
+	},
+	{
+		"id": "velum",
+		"displayName": "Velum"
+	},
+	{
+		"id": "velum2",
+		"displayName": "Velum 5-Seater"
+	},
+	{
+		"id": "verlierer2",
+		"displayName": "Verlierer"
+	},
+	{
+		"id": "vestra",
+		"displayName": "Vestra"
+	},
+	{
+		"id": "vigero",
+		"displayName": "Vigero"
+	},
+	{
+		"id": "vigilante",
+		"displayName": "Vigilante"
+	},
+	{
+		"id": "vindicator",
+		"displayName": "Vindicator"
+	},
+	{
+		"id": "virgo",
+		"displayName": "Virgo"
+	},
+	{
+		"id": "virgo2",
+		"displayName": "Virgo Classic Custom"
+	},
+	{
+		"id": "virgo3",
+		"displayName": "Virgo Classic"
+	},
+	{
+		"id": "viseris",
+		"displayName": "Viseris"
+	},
+	{
+		"id": "visione",
+		"displayName": "Visione"
+	},
+	{
+		"id": "volatol",
+		"displayName": "Volatol"
+	},
+	{
+		"id": "volatus",
+		"displayName": "Volatus"
+	},
+	{
+		"id": "voltic",
+		"displayName": "Voltic"
+	},
+	{
+		"id": "voltic2",
+		"displayName": "Rocket Voltic"
+	},
+	{
+		"id": "voodoo",
+		"displayName": "Voodoo Custom"
+	},
+	{
+		"id": "voodoo2",
+		"displayName": "Voodoo"
+	},
+	{
+		"id": "vortex",
+		"displayName": "Vortex"
+	},
+	{
+		"id": "warrener",
+		"displayName": "Warrener"
+	},
+	{
+		"id": "washington",
+		"displayName": "Washington"
+	},
+	{
+		"id": "wastelander",
+		"displayName": "Wastelander"
+	},
+	{
+		"id": "windsor",
+		"displayName": "Windsor"
+	},
+	{
+		"id": "windsor2",
+		"displayName": "Windsor Drop"
+	},
+	{
+		"id": "wolfsbane",
+		"displayName": "Wolfsbane"
+	},
+	{
+		"id": "xa21",
+		"displayName": "XA-21"
+	},
+	{
+		"id": "xls",
+		"displayName": "XLS"
+	},
+	{
+		"id": "xls2",
+		"displayName": "XLS (Armored)"
+	},
+	{
+		"id": "yosemite",
+		"displayName": "Yosemite"
+	},
+	{
+		"id": "youga",
+		"displayName": "Youga"
+	},
+	{
+		"id": "youga2",
+		"displayName": "Youga Classic"
+	},
+	{
+		"id": "zentorno",
+		"displayName": "Zentorno"
+	},
+	{
+		"id": "zion",
+		"displayName": "Zion"
+	},
+	{
+		"id": "zion2",
+		"displayName": "Zion Cabrio"
+	},
+	{
+		"id": "zombiea",
+		"displayName": "Zombie Bobber"
+	},
+	{
+		"id": "zombieb",
+		"displayName": "Zombie Chopper"
+	},
+	{
+		"id": "zr380",
+		"displayName": "Apocalypse ZR380"
+	},
+	{
+		"id": "zr3802",
+		"displayName": "Future Shock ZR380"
+	},
+	{
+		"id": "zr3803",
+		"displayName": "Nightmare ZR380"
+	},
+	{
+		"id": "ztype",
+		"displayName": "Z-Type"
+	}
+]

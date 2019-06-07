@@ -1,0 +1,16 @@
+{
+	"files.exclude": {
+		".vscode": true,
+		"**/bridge": true,
+		"**/client_packages": true,
+		"**/maps": true,
+		"**/node_modules": true,
+		"**/plugins": true,
+		"bt.dat": true,
+		"conf.json": true,
+		"node.dll": true,
+		"node.vmp.dll": true,
+		"server.exe": true
+	},
+	"files.eol": "\n"
+}
