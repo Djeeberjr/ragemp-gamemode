@@ -13,4 +13,4 @@ mp.events.add("browserDomReady",(browser)=>{
 // Create new browser
 const cefBrowser = mp.browsers.new("package://dist/index.html");
 
-exports = cefBrowser;
+module.exports = cefBrowser;
