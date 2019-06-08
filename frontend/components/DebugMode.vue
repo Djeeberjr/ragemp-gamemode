@@ -20,13 +20,26 @@
 			Spawn Vehicle:
 			<model-list-select
 				class="dropdown"
-				:list="allVehicles"
+				:list="allVehicles()"
 				v-model="selectedVehicle"
 				option-value="id"
                 option-text="displayName"
 				>
 			</model-list-select>
 			<button @click="spawnSelectedVehicle">Spawn</button>
+		</div>
+		<br>
+		<div class="group-container">
+			Give Weapon:
+			<model-list-select
+				class="dropdown"
+				:list="allWeapons()"
+				v-model="selectedWeapon"
+				option-value="hash"
+                option-text="displayName"
+				>
+			</model-list-select>
+			<button @click="giveSelectedWeapon">Spawn</button>
 		</div>
 	</div>
 	
@@ -40,6 +53,7 @@ import perfomQuickAction from "./../modules/performQuickAction";
 import allVehicles from "./../../sharedAssets/vehicles.json";
 import bridge from "./../modules/bridge";
 import { ModelListSelect  } from 'vue-search-select'
+import allWeapons from "./../../sharedAssets/weapons.json";
 
 export default {
 	data() {
@@ -53,6 +67,7 @@ export default {
 			],
 			selectedQuickAction: "",
 			selectedVehicle:"",
+			selectedWeapon: 0,
 		}
 	},
 	components: {
@@ -65,6 +80,9 @@ export default {
 		spawnSelectedVehicle(){
 			bridge.invokeServer("spawnVehicleAtPlayer",this.selectedVehicle);
 		},
+		giveSelectedWeapon(){
+			bridge.invokeServer("giveWeapon",this.selectedWeapon,9999);
+		},
 		hide(){
 			this.hidden = true;
 			keypress.focus(false);
@@ -74,6 +92,7 @@ export default {
 			this.hidden = false;
 			this.selectedQuickAction = "";
 			this.selectedVehicle = "";
+			this.selectedWeapon = 0;
 			keypress.focus(true);
 			mp.invoke("focus", true);
 		},
@@ -83,11 +102,19 @@ export default {
 			}else{
 				this.hide();
 			}
-		}
-	},
-	computed: {
+		},
 		allVehicles(){
 			return allVehicles;
+		},
+		allWeapons(){
+			let rtn = [];
+			for (const key in allWeapons) {
+				if (allWeapons.hasOwnProperty(key)) {
+					const element = allWeapons[key];
+					rtn.push({displayName:key,hash:element});
+				}
+			}
+			return rtn;
 		}
 	},
 	beforeMount() {
