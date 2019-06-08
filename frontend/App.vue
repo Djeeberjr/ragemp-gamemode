@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import Chatbox from "./components/Chatbox.vue";
-import DebugMode from "./components/DebugMode.vue";
+import Chatbox from "./chat/Chatbox.vue";
+import DebugMode from "./debug/Component.vue";
 
 export default {
     components:{

@@ -2,7 +2,7 @@
  * This file is special. Rage requires a object called "chatAPI" to be global to use this as an API for the chat. 
  * You can use this if you want to push a message on the chat from inside of the cef.
  */
-import bus from "./eventBus";
+import bus from "./../modules/eventBus";
 
 window.chatAPI = {
 	push: (text)=>{

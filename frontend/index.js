@@ -7,7 +7,7 @@
 ╚═════╝ ╚═╝  ╚═╝ ╚═════╝  ╚══╝╚══╝ ╚══════╝╚══════╝╚═╝  ╚═╝                                                         
 */
 
-import {} from "./modules/chatAPI"; // Init the chat api for ragemp to talk to the browser
+import {} from "./chat/chatAPI"; // Init the chat api for ragemp to talk to the browser
 import Vue from "vue";
 import App from "./App.vue";
 import BootstrapVue from "bootstrap-vue";
