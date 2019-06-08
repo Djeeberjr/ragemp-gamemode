@@ -45,6 +45,16 @@
 						<button @click="giveSelectedWeapon">Spawn</button>
 					</div>
 				</b-tab>
+				<b-tab title="Console">
+					<b-form-textarea
+						id="textarea"
+						v-model="consoleText"
+						rows="17"
+						max-rows="17"
+						no-resize
+						plaintext 
+					></b-form-textarea>
+				</b-tab>
 			</b-tabs>
 	</div>
 	
@@ -73,6 +83,7 @@ export default {
 			selectedQuickAction: "",
 			selectedVehicle:"",
 			selectedWeapon: 0,
+			consoleText: ""
 		}
 	},
 	components: {
@@ -152,10 +163,6 @@ export default {
         position: absolute;
         top:25%;
         left: 25%;
-	}
-
-	.group-container{
-
 	}
 	
 	.dropdown{
