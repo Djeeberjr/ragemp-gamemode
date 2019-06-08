@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="chat-container">
         <div class="output"  ref="output">
             <div v-for="(msg,index) in chatOutput" :key="index">
                 {{msg}}
@@ -89,7 +89,7 @@ export default {
 
 <style scoped>
 
-    .container{
+    .chat-container{
         width: 30%;
         height: 25%;
     }

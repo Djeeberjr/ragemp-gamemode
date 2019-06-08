@@ -3,44 +3,49 @@
 		<div class="closeButton" @click="hide">
 			X
 		</div>
-		<div class="group-container">
-			Quick action: 
-			<model-list-select
-				class="dropdown"
-				:list="quickActions"
-				v-model="selectedQuickAction"
-				option-value="value"
-                option-text="text"
-				>
-			</model-list-select>
-			<button @click="perfomQuickAction">Do it</button>
-		</div>
-		<br>
-		<div class="group-container">
-			Spawn Vehicle:
-			<model-list-select
-				class="dropdown"
-				:list="allVehicles()"
-				v-model="selectedVehicle"
-				option-value="id"
-                option-text="displayName"
-				>
-			</model-list-select>
-			<button @click="spawnSelectedVehicle">Spawn</button>
-		</div>
-		<br>
-		<div class="group-container">
-			Give Weapon:
-			<model-list-select
-				class="dropdown"
-				:list="allWeapons()"
-				v-model="selectedWeapon"
-				option-value="hash"
-                option-text="displayName"
-				>
-			</model-list-select>
-			<button @click="giveSelectedWeapon">Spawn</button>
-		</div>
+
+		 <b-tabs>
+				<b-tab title="Start" active>
+					<div class="group-container">
+						Quick action: 
+						<model-list-select
+							class="dropdown"
+							:list="quickActions"
+							v-model="selectedQuickAction"
+							option-value="value"
+							option-text="text"
+							>
+						</model-list-select>
+						<button @click="perfomQuickAction">Do it</button>
+					</div>
+					<br>
+					<div class="group-container">
+						Spawn Vehicle:
+						<model-list-select
+							class="dropdown"
+							:list="allVehicles()"
+							v-model="selectedVehicle"
+							option-value="id"
+							option-text="displayName"
+							>
+						</model-list-select>
+						<button @click="spawnSelectedVehicle">Spawn</button>
+					</div>
+					<br>
+					<div class="group-container">
+						Give Weapon:
+						<model-list-select
+							class="dropdown"
+							:list="allWeapons()"
+							v-model="selectedWeapon"
+							option-value="hash"
+							option-text="displayName"
+							>
+						</model-list-select>
+						<button @click="giveSelectedWeapon">Spawn</button>
+					</div>
+				</b-tab>
+			</b-tabs>
 	</div>
 	
 
@@ -130,9 +135,8 @@ export default {
 </script>
 
 <style>
-
+	/*Dont know why but this is needed for the text in the dropdown menu to be centered*/
 	.dropdown>div.text{
-
 		padding: 0.67861429em 2.1em 0.67861429em 1em;
 	}
 </style>

@@ -22,6 +22,11 @@ export default {
     *{
         user-select: none; 
     }
+
+    body{
+        background: transparent !important;
+        margin: 20px !important;
+    }
 </style>
 
 <style scoped>
