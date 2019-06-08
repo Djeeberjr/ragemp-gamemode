@@ -14,5 +14,9 @@ module.exports = {
 	kys(player){
 		logger.info(`Killing player ${player.name}`);
 		player.health = 0;
+	},
+	giveWeapon(player,weaponHash,ammo = 0){
+		logger.info(`Giving weapon ${weaponHash} and ammo ${ammo} to ${player.name}`);
+		player.giveWeapon(weaponHash,ammo);
 	}
 };
