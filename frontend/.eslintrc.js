@@ -8,7 +8,7 @@ module.exports = {
     ],
     "globals": {
         "DEVELOPMENT": "readonly",
-        "DEBUG_CONSOLE": "readonly",
+        "DEBUG": "readonly",
         "mp":"readonly"
     },
     "parserOptions": {

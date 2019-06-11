@@ -4,12 +4,12 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"buildFrontend": "webpack --config dev/webpack.frontend.js --env.prod",
+		"buildFrontend": "webpack --config dev/webpack.frontend.js --env.prod --env.debug",
 		"buildFrontendDev": "webpack --config dev/webpack.frontend.js",
 		"buildClient": "webpack --config dev/webpack.client.js --env.prod",
-		"buildClientDev": "",
 		"watch": "webpack --config dev/webpack.frontend.js --watch",
-		"startW": "rm client_packages/.listcache & npm run buildFrontend && npm run buildClient && start .\\server.exe"
+		"startW": "rm client_packages/.listcache & npm run buildFrontend && npm run buildClient && start .\\server.exe",
+		"buildProd": "webpack --config dev/webpack.frontend.js && webpack --config dev/webpack.client.js"
 	},
 	"author": "",
 	"license": "ISC",

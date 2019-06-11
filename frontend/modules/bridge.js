@@ -2,6 +2,7 @@
  * ---BROSER---
  */
 import remoteFunctions from "./remoteFunctions";
+import debug from "./../debug/debug";
 
 // create the exposed object the client can talk to.
 window.bridge = {
@@ -25,6 +26,7 @@ function invokeClient(info){
 export default {
 	invokeClient(nameOfFunction,...parameter){
 		if(DEVELOPMENT) console.debug(`[BRIDGE] invokeClient(${nameOfFunction},${parameter})`);
+		if(DEBUG) debug.debug(`[BRIDGE] invokeClient(${nameOfFunction},${parameter})`);
 		
 		invokeClient({
 			to:"client",
@@ -34,6 +36,8 @@ export default {
 	},
 	invokeServer(nameOfFunction,...parameter){
 		if(DEVELOPMENT) console.debug(`[BRIDGE] invokeServer(${nameOfFunction},${parameter})`);
+		if(DEBUG) debug.debug(`[BRIDGE] invokeServer(${nameOfFunction},${parameter})`);
+
 		invokeClient({
 			to:"server",
 			function:nameOfFunction,

@@ -69,6 +69,7 @@ import allVehicles from "./../../sharedAssets/vehicles.json";
 import bridge from "./../modules/bridge";
 import { ModelListSelect  } from 'vue-search-select'
 import allWeapons from "./../../sharedAssets/weapons.json";
+import bus from "./../modules/eventBus";
 
 export default {
 	data() {
@@ -139,6 +140,24 @@ export default {
 		// 113 is "F2" but you can only catch that with keyDown
 		keypress.keyDown(113,(e)=>{
 			this.toggleShow();
+		});
+
+		// Register debug console events
+
+		bus.on("debug.debug",(text)=>{
+			this.consoleText += `[DEBUG] ${text} \n`;
+		});
+
+		bus.on("debug.info",(text)=>{
+			this.consoleText += `[INFO] ${text} \n`;
+		});
+
+		bus.on("debug.warn",(text)=>{
+			this.consoleText += `[WARN] ${text} \n`;
+		});
+
+		bus.on("debug.error",(text)=>{
+			this.consoleText += `[ERROR] ${text} \n`;
 		});
 
 	},
