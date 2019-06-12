@@ -67,7 +67,7 @@
 					rows="17"
 					max-rows="17"
 					no-resize
-					plaintext 
+					readonly 
 				></b-form-textarea>
 			</b-tab>
 		</b-tabs>
