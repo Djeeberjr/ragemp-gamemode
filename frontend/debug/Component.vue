@@ -18,31 +18,31 @@
 							>
 						</model-list-select>
 						<button @click="perfomQuickAction">Do it</button>
-					</div>
-					<div class="col-sm">
-						Spawn Vehicle:
-						<model-list-select
-							class="dropdown"
-							:list="allVehicles()"
-							v-model="selectedVehicle"
-							option-value="id"
-							option-text="displayName"
-							>
-						</model-list-select>
-						<button @click="spawnSelectedVehicle">Spawn</button>
-					</div>
-					<div class="col-sm">
-						Give Weapon:
-						<model-list-select
-							class="dropdown"
-							:list="allWeapons()"
-							v-model="selectedWeapon"
-							option-value="hash"
-							option-text="displayName"
-							>
-						</model-list-select>
-						<button @click="giveSelectedWeapon">Spawn</button>
-					</div>
+						</div>
+						<div class="col">
+							Spawn Vehicle:
+							<model-list-select
+								class="dropdown"
+								:list="allVehicles()"
+								v-model="selectedVehicle"
+								option-value="id"
+								option-text="displayName"
+								>
+							</model-list-select>
+							<button @click="spawnSelectedVehicle">Spawn</button>
+						</div>
+						<div class="col">
+							Give Weapon:
+							<model-list-select
+								class="dropdown"
+								:list="allWeapons()"
+								v-model="selectedWeapon"
+								option-value="hash"
+								option-text="displayName"
+								>
+							</model-list-select>
+							<button @click="giveSelectedWeapon">Spawn</button>
+						</div>
 					</div>
 				</b-tab>
 				<b-tab title="Console">
