@@ -1,10 +1,12 @@
 const path = require("path");
+const webpack = require("webpack");
 
 module.exports = env => {
 	const prod = (env && env.prod);
 
 	return {
 	mode: "production",
+	devtool:false,
 	entry: path.resolve(__dirname, "../client/index.js"),
 	target:"node",
 	output: {
@@ -20,6 +22,9 @@ module.exports = env => {
 	},
 	stats: "errors-warnings",
 	plugins: [
-	]
+		new webpack.DefinePlugin({
+			DEVELOPMENT: JSON.stringify(!prod)
+		})
+	
 }
 };

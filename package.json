@@ -6,8 +6,8 @@
 	"scripts": {
 		"buildFrontend": "webpack --config dev/webpack.frontend.js --env.prod --env.debug",
 		"buildFrontendDev": "webpack --config dev/webpack.frontend.js",
-		"buildClient": "webpack --config dev/webpack.client.js --env.prod",
-		"watch": "webpack --config dev/webpack.frontend.js --watch",
+		"buildClient": "webpack --config dev/webpack.client.js",
+		"watch": "webpack --config dev/webpack.frontend.js --watch --env.debug",
 		"startW": "rm client_packages/.listcache & npm run buildFrontend && npm run buildClient && start .\\server.exe",
 		"buildProd": "webpack --config dev/webpack.frontend.js && webpack --config dev/webpack.client.js"
 	},
