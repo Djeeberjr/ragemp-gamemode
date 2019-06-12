@@ -7,7 +7,7 @@
 		 <b-tabs>
 				<b-tab title="Start" active>
 					<div class="row">
-						<div class="col-sm">
+						<div class="col">
 						Quick action: 
 						<model-list-select
 							class="dropdown"
