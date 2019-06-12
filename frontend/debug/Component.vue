@@ -44,6 +44,21 @@
 							<button @click="giveSelectedWeapon">Spawn</button>
 						</div>
 					</div>
+					<div class="row">
+						
+						<div class="col">
+							Select skin:
+							<model-list-select
+								class="dropdown"
+								:list="allSkins()"
+								v-model="selectedSkin"
+                    			option-text="value"
+								option-value="value"
+								>
+							</model-list-select>
+							<button @click="setSekectedSkin">Set</button>
+						</div>
+					</div>
 				</b-tab>
 				<b-tab title="Console">
 					<b-form-textarea
@@ -70,6 +85,7 @@ import bridge from "./../modules/bridge";
 import { ModelListSelect  } from 'vue-search-select'
 import allWeapons from "./../../sharedAssets/weapons.json";
 import bus from "./../modules/eventBus";
+import allSkins from "./../../sharedAssets/skins.json";
 
 export default {
 	data() {
@@ -84,11 +100,12 @@ export default {
 			selectedQuickAction: "",
 			selectedVehicle:"",
 			selectedWeapon: 0,
+			selectedSkin:"",
 			consoleText: ""
 		}
 	},
 	components: {
-      ModelListSelect 
+	  ModelListSelect
     },
 	methods: {
 		perfomQuickAction(){
@@ -100,6 +117,9 @@ export default {
 		giveSelectedWeapon(){
 			bridge.invokeServer("giveWeapon",this.selectedWeapon,9999);
 		},
+		setSekectedSkin(){
+			bridge.invokeServer("setPlayerSkin",this.selectedSkin);
+		},
 		hide(){
 			this.hidden = true;
 			keypress.focus(false);
@@ -110,6 +130,7 @@ export default {
 			this.selectedQuickAction = "";
 			this.selectedVehicle = "";
 			this.selectedWeapon = 0;
+			this.selectedSkin = "";
 			keypress.focus(true);
 			mp.invoke("focus", true);
 		},
@@ -132,6 +153,11 @@ export default {
 				}
 			}
 			return rtn;
+		},
+		allSkins(){
+			return allSkins.map((e)=>{
+				return {value:e};
+			});
 		}
 	},
 	beforeMount() {

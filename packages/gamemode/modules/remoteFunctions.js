@@ -18,5 +18,9 @@ module.exports = {
 	giveWeapon(player,weaponHash,ammo = 0){
 		logger.info(`Giving weapon ${weaponHash} and ammo ${ammo} to ${player.name}`);
 		player.giveWeapon(weaponHash,ammo);
+	},
+	setPlayerSkin(player,skin){
+		logger.info(`Set skin of ${player.name} to ${skin}`);
+		player.model = skin;
 	}
 };
