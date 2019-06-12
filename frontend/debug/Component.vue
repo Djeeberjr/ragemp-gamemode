@@ -70,6 +70,9 @@
 					plaintext 
 				></b-form-textarea>
 			</b-tab>
+			<b-tab title="Interactive">
+				<interactive-console/>
+			</b-tab>
 		</b-tabs>
 	</div>
 	
@@ -86,6 +89,7 @@ import { ModelListSelect  } from 'vue-search-select'
 import allWeapons from "./../../sharedAssets/weapons.json";
 import bus from "./../modules/eventBus";
 import allSkins from "./../../sharedAssets/skins.json";
+import InteractiveConsole from "./InteractiveConsole.vue";
 
 export default {
 	data() {
@@ -105,7 +109,8 @@ export default {
 		}
 	},
 	components: {
-	  ModelListSelect
+	  ModelListSelect,
+	  InteractiveConsole
     },
 	methods: {
 		perfomQuickAction(){
