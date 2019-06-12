@@ -17,7 +17,7 @@
 							option-text="text"
 							>
 						</model-list-select>
-						<button @click="perfomQuickAction">Do it</button>
+						<b-button variant="primary" @click="perfomQuickAction">Do it</b-button>
 						</div>
 						<div class="col">
 							Spawn Vehicle:
@@ -29,7 +29,7 @@
 								option-text="displayName"
 								>
 							</model-list-select>
-							<button @click="spawnSelectedVehicle">Spawn</button>
+							<b-button variant="primary" @click="spawnSelectedVehicle">Spawn</b-button>
 						</div>
 						<div class="col">
 							Give Weapon:
@@ -41,7 +41,7 @@
 								option-text="displayName"
 								>
 							</model-list-select>
-							<button @click="giveSelectedWeapon">Spawn</button>
+							<b-button variant="primary" @click="giveSelectedWeapon">Spawn</b-button>
 						</div>
 					</div>
 					<div class="row">
@@ -56,7 +56,7 @@
 								option-value="value"
 								>
 							</model-list-select>
-							<button @click="setSekectedSkin">Set</button>
+							<b-button variant="primary" @click="setSekectedSkin">Set</b-button>
 						</div>
 					</div>
 				</b-tab>
