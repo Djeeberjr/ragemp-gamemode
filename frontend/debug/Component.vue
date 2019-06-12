@@ -6,7 +6,8 @@
 
 		 <b-tabs>
 				<b-tab title="Start" active>
-					<div class="group-container">
+					<div class="row">
+						<div class="col-sm">
 						Quick action: 
 						<model-list-select
 							class="dropdown"
@@ -18,8 +19,7 @@
 						</model-list-select>
 						<button @click="perfomQuickAction">Do it</button>
 					</div>
-					<br>
-					<div class="group-container">
+					<div class="col-sm">
 						Spawn Vehicle:
 						<model-list-select
 							class="dropdown"
@@ -31,8 +31,7 @@
 						</model-list-select>
 						<button @click="spawnSelectedVehicle">Spawn</button>
 					</div>
-					<br>
-					<div class="group-container">
+					<div class="col-sm">
 						Give Weapon:
 						<model-list-select
 							class="dropdown"
@@ -43,6 +42,7 @@
 							>
 						</model-list-select>
 						<button @click="giveSelectedWeapon">Spawn</button>
+					</div>
 					</div>
 				</b-tab>
 				<b-tab title="Console">
@@ -185,7 +185,6 @@ export default {
 	}
 	
 	.dropdown{
-		max-width: 20%;
 		padding: 0px !important;
 	}
 
