@@ -5,72 +5,72 @@
 		</div>
 
 		 <b-tabs>
-				<b-tab title="Start" active>
-					<div class="row">
-						<div class="col">
-						Quick action: 
+			<b-tab title="Start" active>
+				<div class="row">
+					<div class="col">
+					Quick action: 
+					<model-list-select
+						class="dropdown"
+						:list="quickActions"
+						v-model="selectedQuickAction"
+						option-value="value"
+						option-text="text"
+						>
+					</model-list-select>
+					<b-button variant="primary" @click="perfomQuickAction">Do it</b-button>
+					</div>
+					<div class="col">
+						Spawn Vehicle:
 						<model-list-select
 							class="dropdown"
-							:list="quickActions"
-							v-model="selectedQuickAction"
-							option-value="value"
-							option-text="text"
+							:list="allVehicles()"
+							v-model="selectedVehicle"
+							option-value="id"
+							option-text="displayName"
 							>
 						</model-list-select>
-						<b-button variant="primary" @click="perfomQuickAction">Do it</b-button>
-						</div>
-						<div class="col">
-							Spawn Vehicle:
-							<model-list-select
-								class="dropdown"
-								:list="allVehicles()"
-								v-model="selectedVehicle"
-								option-value="id"
-								option-text="displayName"
-								>
-							</model-list-select>
-							<b-button variant="primary" @click="spawnSelectedVehicle">Spawn</b-button>
-						</div>
-						<div class="col">
-							Give Weapon:
-							<model-list-select
-								class="dropdown"
-								:list="allWeapons()"
-								v-model="selectedWeapon"
-								option-value="hash"
-								option-text="displayName"
-								>
-							</model-list-select>
-							<b-button variant="primary" @click="giveSelectedWeapon">Spawn</b-button>
-						</div>
+						<b-button variant="primary" @click="spawnSelectedVehicle">Spawn</b-button>
 					</div>
-					<div class="row">
-						
-						<div class="col">
-							Select skin:
-							<model-list-select
-								class="dropdown"
-								:list="allSkins()"
-								v-model="selectedSkin"
-                    			option-text="value"
-								option-value="value"
-								>
-							</model-list-select>
-							<b-button variant="primary" @click="setSekectedSkin">Set</b-button>
-						</div>
+					<div class="col">
+						Give Weapon:
+						<model-list-select
+							class="dropdown"
+							:list="allWeapons()"
+							v-model="selectedWeapon"
+							option-value="hash"
+							option-text="displayName"
+							>
+						</model-list-select>
+						<b-button variant="primary" @click="giveSelectedWeapon">Spawn</b-button>
 					</div>
-				</b-tab>
-				<b-tab title="Console">
-					<b-form-textarea
-						id="textarea"
-						v-model="consoleText"
-						rows="17"
-						max-rows="17"
-						no-resize
-						plaintext 
-					></b-form-textarea>
-				</b-tab>
-			</b-tabs>
+				</div>
+				<div class="row">
+					
+					<div class="col">
+						Select skin:
+						<model-list-select
+							class="dropdown"
+							:list="allSkins()"
+							v-model="selectedSkin"
+							option-text="value"
+							option-value="value"
+							>
+						</model-list-select>
+						<b-button variant="primary" @click="setSekectedSkin">Set</b-button>
+					</div>
+				</div>
+			</b-tab>
+			<b-tab title="Console">
+				<b-form-textarea
+					id="textarea"
+					v-model="consoleText"
+					rows="17"
+					max-rows="17"
+					no-resize
+					plaintext 
+				></b-form-textarea>
+			</b-tab>
+		</b-tabs>
 	</div>
 	
 
