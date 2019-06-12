@@ -9,11 +9,11 @@ mp.events.add(
 		"bridgeBroswerToClient": (payload) => {
 			// Fired when a message comes from the broser to the client
 			
-			const dest = JSON.parse(payload).to;
-			if(dest === "server"){
+			const info = JSON.parse(payload);
+			if(info.to === "server"){
 				invokeServer(payload);
 			}else{
-				handleInvoke(payload);
+				handleInvoke(info);
 			}
 		},
 		"bridgeServerToClient": payload => {
