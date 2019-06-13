@@ -34,7 +34,7 @@ function handleInvoke(info){
 }
 
 function invokeBrowser(payload){
-	browser.execute(`bridge.invoke(${payload})`);
+	browser.execute(`bridge.invoke("${payload}")`);
 }
 
 function invokeServer(payload){
@@ -42,13 +42,11 @@ function invokeServer(payload){
 }
 
 module.exports = {
-	browser:{
-		emit(event,payload){
-			// TODO
-		},
-		on(event,callback){
-			// TODO
-		}
+	browser(nameOfFunction,...parameter){
+		invokeBrowser({
+			function:nameOfFunction,
+			parameter
+		});
 	},
 	server(nameOfFunction,...parameter){
 		invokeServer({
